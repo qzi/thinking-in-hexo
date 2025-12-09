@@ -106,7 +106,7 @@ class Generater {
         _id: cacheId,
         hash
       }).then(() => // Write cache data to public folder
-        writeFile(dest, Buffer.concat(buffers))).then(() => {
+        writeFile(dest, Buffer.concat(buffers) as any)).then(() => {
         log.info('Generated: %s', magenta(path));
         return true;
       });

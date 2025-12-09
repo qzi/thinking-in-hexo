@@ -7,13 +7,13 @@
     "hexo": "./bin/hexo"
   },
   "scripts": {
-    "prepublishOnly": "npm install && npm run clean && npm run build",
+    "prepublishOnly": "bun install && bun run clean && bun run build",
     "build": "tsc -b",
     "clean": "tsc -b --clean",
     "eslint": "eslint lib test",
-    "pretest": "npm run clean && npm run build",
+    "pretest": "bun run clean && bun run build",
     "test": "mocha test/scripts/**/*.ts --require ts-node/register",
-    "test-cov": "c8 --reporter=lcovonly npm test -- --no-parallel",
+    "test-cov": "c8 --reporter=lcovonly bun test -- --no-parallel",
     "prepare": "husky install"
   },
   "files": [
