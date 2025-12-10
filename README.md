@@ -15,7 +15,7 @@ I’m not sure whether it will become the next generation of static site generat
 
 ### 1. Switch from npm to bun
 - Build time: 45s → 2s (22x faster)
-- Already validated on `hexo-v7-bun` and `main` branches
+- Already validated on `hexo-v7-bun` and `master` branches
 
 ### 2. Refactor from CJS to ESM
 - Modernize `loadPlugin()` to support dynamic `import()`
