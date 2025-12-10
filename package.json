@@ -1,6 +1,6 @@
 {
   "name": "@qzi/hexo",
-  "version": "7.3.0",
+  "version": "7.3.1",
   "description": "A fast, simple & powerful blog framework, powered by Node.js.",
   "main": "dist/hexo",
   "bin": {
@@ -21,7 +21,7 @@
     "bin/"
   ],
   "types": "./dist/hexo/index.d.ts",
-  "repository": "hexojs/hexo",
+  "repository": "qzi/thinking-in-hexo",
   "homepage": "https://hexo.io/",
   "funding": {
     "type": "opencollective",
@@ -37,6 +37,9 @@
   "author": "Tommy Chen <tommy351@gmail.com> (https://zespia.tw)",
   "maintainers": [
     "Abner Chou <hi@abnerchou.me> (https://abnerchou.me)"
+  ],
+  "contributors": [
+    "Leon <i@leonvision.online> (https://leonvision.online)"
   ],
   "license": "MIT",
   "dependencies": {

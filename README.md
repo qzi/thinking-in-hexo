@@ -1,3 +1,7 @@
+
+![bun-image]
+![cf-image]
+
 # Thinking in Hexo
 
 I’m not sure whether it will become the next generation of static site generators — I’m just thinking how it could be improved.  
@@ -28,3 +32,26 @@ I’m not sure whether it will become the next generation of static site generat
 - [x] Validate bun compatibility
 - [ ] ESM plugin loader prototype
 - [ ] AI integration design doc
+
+
+
+### Quick Start
+
+
+
+```bash
+# package.json
+"dependencies": {
+  "hexo": "npm:@qzi/hexo@^7.3.0",
+  ...
+},
+
+```
+
+
+
+
+
+
+[bun-image]: https://img.shields.io/badge/bun-compatible-orange?style=for-the-badge&logo=bun
+[cf-image]: https://img.shields.io/badge/Cloudflare%20Pages-compatible-F38020?style=for-the-badge&logo=cloudflare
