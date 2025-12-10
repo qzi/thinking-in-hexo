@@ -1,5 +1,5 @@
 {
-  "name": "hexo",
+  "name": "@qzi/hexo",
   "version": "7.3.0",
   "description": "A fast, simple & powerful blog framework, powered by Node.js.",
   "main": "dist/hexo",
