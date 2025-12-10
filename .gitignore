@@ -10,5 +10,4 @@ pnpm-lock.yaml
 coverage/
 .tmp*
 .vscode
-# dist/
 bun.lock
