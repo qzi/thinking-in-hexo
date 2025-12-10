@@ -1,0 +1,3 @@
+[install]
+# 信任这些包的 postinstall 脚本
+trustedDependencies = ["hexo-util", "hexo-cli", "hexo"]
