@@ -14,7 +14,7 @@
     "pretest": "bun run clean && bun run build",
     "test": "mocha test/scripts/**/*.ts --require ts-node/register",
     "test-cov": "c8 --reporter=lcovonly bun test -- --no-parallel",
-    "prepare": "husky install"
+    "prepare": "bun run build && husky install"
   },
   "files": [
     "dist/",
